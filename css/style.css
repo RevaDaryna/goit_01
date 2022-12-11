@@ -1,9 +1,9 @@
 :root{
     --color-accent:#F7941E;
     --color-main:#000000;
-    --color-bg:##F1F1F2;
-    --color-white:##FFFFFF;
-    --color-cardbg:##FAFAFA;
+    --color-bg:#F1F1F2;
+    --color-white:#FFFFFF;
+    --color-cardbg:#FAFAFA;
     --color-button:#231F20;
 }
 
@@ -46,7 +46,7 @@ p{
 }
 
 .conteiner{
-    width: 1200px;
+    width: 1440px;
     padding: 12px;
     margin-left: auto;
     margin-right: auto;
@@ -94,9 +94,46 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 36px;
 
 }
 
+.section {
+    display: flex;
+    background-color: var(--color-bg);
 
+}
+
+.content-section{
+    padding: 154px 126px 135px 162px;
+
+}
+
+.content-section h1 {
+    font-size: 56px;
+    line-height: 1.23;
+    margin-bottom: 36px;
+    width: 433px;
+}
+
+.content-section p {
+    font-size: 20px;
+    width: 422px;
+    margin-bottom: 52px;
+}
+
+.image {
+    display: inline-block;
+}
+
+.botton-one{
+    padding: 23px 24px 15px 24px;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    border: transparent;
+    border-radius: 5px;
+    font-family: inherit;
+}
 
 
